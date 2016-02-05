@@ -7,10 +7,11 @@
 }
 
 #center-text {
+    font-family: 'Passion One', cursive;
     color: #101010;
-    margin-top: 75px;
+    margin-top: 55px;
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
     -webkit-animation: fadein 2s;
     /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s;
@@ -86,23 +87,27 @@
 }
 
 #footer {
-    text-align: bottom;
-}
+    text-align: center;
 
+}
+#linkin{
+    margin-left: 12px;
+}
 #add {
     font-size: 15px;
     color: #DC143C;
 }
 
 div.image {
-    max-width: 350px;
+    max-width: 400px;
     width: 50%;
     height: auto;
     margin: auto;
 }
 
 div.image img {
-    margin-top: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
     width: auto;
     height: 40%;
     max-height: 500px;
@@ -116,20 +121,50 @@ div.desc {
 body {
     position: relative;
 }
-
-#set-data {
+/*#sction1{
     text-align: center;
-    height: 350px;
-    margin-top: 250px;
+    height: 400px;
+    margin:auto;
+}*/
+#set-info{
+    text-align: center;
+    margin-top: 220px;
+    margin-bottom: 250px;
+}
+#set-edu{
+    text-align: center;
+    margin-top: 240px;
+    margin-bottom: 250px;
+}
+#set-work{
+    text-align: center;
+    margin-top: 240px;
+    margin-bottom: 250px;
+}
+#set-train{
+    text-align: center;
+    margin-top: 210px;
+    margin-bottom: 250px;
+}
+#set-skills{
+    text-align: center;
+    margin-top: 260px;
+    margin-bottom: 250px;
+}
+#set-refer{
+    text-align: center;
+    margin-top: 240px;
+    margin-bottom: 250px;
 }
 
 #background1 {
     max-width: auto;
     max-height: auto;
-    background-image: url("pexels-photo.jpeg");
+    background-image: url("images/pexels-photo.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+    
 }
 
 a.back-to-top {
@@ -141,11 +176,20 @@ a.back-to-top {
     z-index: 999;
     right: 20px;
     bottom: 20px;
-    background: #27AE61 url("up-arrow.png") no-repeat center 43%;
+    background: #27AE61 url("images/up-arrow.png") no-repeat center 43%;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     border-radius: 30px;
 }
 a:hover.back-to-top {
     background-color: #000;
+}
+#section2{
+    background:#D0D0D0;
+}
+#section4{
+    background:#D0D0D0;
+}
+#section6{
+    background:#D0D0D0;
 }
