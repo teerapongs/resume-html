@@ -1,74 +1,195 @@
-#resume{
-	color: #6495ED;
+#resume {
+    color: #6495ED;
 }
-#ht1{
-	font-family: Bauhaus 93 Regular;
+
+#ht1 {
+    font-family: Bauhaus 93 Regular;
 }
 
 #center-text {
-    color: #F08080;
+    font-family: 'Passion One', cursive;
+    color: #101010;
+    margin-top: 55px;
     text-align: center;
-    font-size: 40px;
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
-            animation: fadein 2s;
+    font-size: 60px;
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
 }
+
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
+
 
 /* Firefox < 16 */
+
 @-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
+
 
 /* Safari, Chrome and Opera > 12.1 */
+
 @-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
+
 
 /* Internet Explorer */
+
 @-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
+
 
 /* Opera < 12.1 */
+
 @-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-#data{
-	color: blue;
-	text-align: left;
-	font-family: "Cooper Std Black", Times, serif;
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
-#footer{
-	text-align: bottom;
+#data {
+    color: #202020;
+    text-align: center;
+    font-family: "Cooper Std Black", Times, serif;
 }
-#add{
-	font-size: 15px;
-	color: #DC143C;
+
+#footer {
+    text-align: center;
+
+}
+#linkin{
+    margin-left: 12px;
+}
+#add {
+    font-size: 15px;
+    color: #DC143C;
 }
 
 div.image {
+    max-width: 400px;
     width: 50%;
     height: auto;
     margin: auto;
 }
 
 div.image img {
-    width:350px;
-    height:40%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: auto;
+    height: 40%;
+    max-height: 500px;
 }
 
 div.desc {
     padding: 50px;
     text-align: center;
+}
+
+body {
+    position: relative;
+}
+/*#sction1{
+    text-align: center;
+    height: 400px;
+    margin:auto;
+}*/
+#set-info{
+    text-align: center;
+    margin-top: 220px;
+    margin-bottom: 250px;
+}
+#set-edu{
+    text-align: center;
+    margin-top: 240px;
+    margin-bottom: 250px;
+}
+#set-work{
+    text-align: center;
+    margin-top: 240px;
+    margin-bottom: 250px;
+}
+#set-train{
+    text-align: center;
+    margin-top: 210px;
+    margin-bottom: 250px;
+}
+#set-skills{
+    text-align: center;
+    margin-top: 260px;
+    margin-bottom: 250px;
+}
+#set-refer{
+    text-align: center;
+    margin-top: 240px;
+    margin-bottom: 250px;
+}
+
+#background1 {
+    max-width: auto;
+    max-height: auto;
+    background-image: url("images/pexels-photo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    
+}
+
+a.back-to-top {
+    display: none;
+    width: 60px;
+    height: 60px;
+    text-indent: -9999px;
+    position: fixed;
+    z-index: 999;
+    right: 20px;
+    bottom: 20px;
+    background: #27AE61 url("images/up-arrow.png") no-repeat center 43%;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+a:hover.back-to-top {
+    background-color: #000;
+}
+#section2{
+    background:#D0D0D0;
+}
+#section4{
+    background:#D0D0D0;
+}
+#section6{
+    background:#D0D0D0;
 }
