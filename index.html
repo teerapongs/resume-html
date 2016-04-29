@@ -7,74 +7,183 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>RESUME</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Passion+One:400,700,900' rel='stylesheet' type='text/css'>
 </head>
 
-<body>
-<div class="viewport test">
-    <header>
-    	<h1 id="resume"><marquee> RESUME </marquee></h1>
-        <h1 class="fadeIn" id="center-text">Teerapong Sa-nguanphao</h1>
-    </header>
-    <article>
-        	<div class="img">
-  				<a target="_blank" href="tongs.jpg">
-    			<img src="tongs.jpg" alt="" width="250" height="250">
-  				</a>
-  				<!-- <div class="desc">Add a description of the image here</div> -->
-			</div>
-			<div>
-			<h1 id="data"> Informations </h1>
-				<p> <b id="add">Address:</b>
-				88 M.2 Wang-Hin Banrai Uthai-thani</p>
-				<p> <b id="add">Telephone:</b>
-				088-4391420</p>
-				<p> <b id="add">Email:</b>
-				pmayatip@gmail.com</p>
-				<p> <b id="add">Birthday:</b>
-				18th February 1994</p>
-				<p> <b id="add">Gender:</b>
-				Male</p>
-			</div>
-			<div>
-				<h1 id="data">Education</h1>
-				 <p>- Bachelor degree (2012-2015): Major Computer Science, Faculty of Science, Naresuan University (GPA: 2.66)</p>
-					<p>&nbsp;&nbsp;&nbsp; ๐ Currently working on 4th year project to make a collaborative education game on iPads using Swift and the Multipeer Connectivity library for iOS.</p>
-				 <p>- High School (2006-2011): Banthungnawittaya School, Uthai Thani (GPA: 2.84)</p>
-			</div>
-			<div>
-				<h1 id="data">Work Experience</h1>
-				<p>- Semester 1/2015. Teaching assistant in Computer Architecture course.</p>
- 			<p>- Summer 2014. Staff for Internet Marketing Seminar in 17 provinces in the north of Thailand by Dr.Ekkasit Tiamkeaw from Naresuan University.</p>
- 			<p>- Summer 2012 & 2013. Staff for Computer Olympics Camp (POSN) held at Naresuan University.</p>
- 			<p>- Part-time 2009-2011. Waiter at local restaurant.
- 			</p>
-			</div>
-			<div><h1 id="data">Training</h1>
-			<p>- Women Techmakers(GDG Phitsanulok March 2015)</p>
-			<p>- Attended many programming workshops at Naresuan, including:</p>
-			<p>&nbsp;&nbsp;&nbsp;๐ Google Dart and Angular (organised by GDG Bangkok & Phitsanulok, February 2014).</p>
-			<p>&nbsp;&nbsp;&nbsp;๐ Introduction to Android Development (8-9 August 2015).</p>
-			<p>&nbsp;&nbsp;&nbsp;๐ Laravel Framework training (27-28 June 2015).</p>
-			<p>- International Organization for Standardization Workshop by Dr. Jittra Wannawichitra.</p>
-			<p>- Cisco network training (2011) and Flash training (2010) at Rangsit University.</p>
-			</div>
-
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div class="container-fluid">
+        <header>
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">RESUME</a>
+                    </div>
+                    <div>
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#section1">Information</a></li>
+                                <li><a href="#section2">Education</a></li>
+                                <li><a href="#section3">Work Experience</a></li>
+                                <li><a href="#section4">Training</a></li>
+                                <li><a href="#section5">Skills</a></li>
+                                <li><a href="#section6">Reference</a></li>
+                                <li><a href="#footer">Contact</a></li>
+                                <!--   <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 7 <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#section41">Section 7-1</a></li>
+                                        <li><a href="#section42">Section 7-2</a></li>
+                                    </ul>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="row" id="home">
+                <div class="col-md-12">
+                    <h1 class="fadeIn" id="center-text">Teerapong Sa-nguanphao</h1>
+                </div>
+            </div>
+        </header>
+        <article>
+            <div class="row" id="background1">
+                <div class="col-md-12">
+                    <div class="image">
+                        <a target="_blank" href="images/profile.jpg">
+                            <img src="images/profile.jpg" class="img-circle" alt="Cinque Terre" style="width:100%">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="section1">
+                <div>
+                    <div class="col-lg-12" id="set-info">
+                        <div>
+                            <h1 id="data"> Informations </h1>
+                            <p> <b id="add">Address:</b> 88 M.2 Wang-Hin Banrai Uthai-thani</p>
+                            <p> <b id="add">Telephone:</b> 088-4391420
+                            </p>
+                            <p> <b id="add">Email:</b> pmayatip@gmail.com
+                            </p>
+                            <p> <b id="add">Birthday:</b> 18th February 1994</p>
+                            <p> <b id="add">Gender:</b> Male
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="section2">
+                <div class="col-lg-12" id="set-edu">
+                    <div>
+                        <h1 id="data">Education</h1>
+                        <p>- Bachelor degree (2012-2015): Major Computer Science, Faculty of Science, Naresuan University (GPA: 2.66)</p>
+                        <p>&nbsp;&nbsp;&nbsp; ๐ Currently working on 4th year project to make a collaborative education game on iPads using Swift and the Multipeer Connectivity library for iOS.</p>
+                        <p>- High School (2006-2011): Banthungnawittaya School, Uthai Thani (GPA: 2.84)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="section3">
+                <div class="col-lg-12" id="set-work">
+                    <div>
+                        <h1 id="data">Work Experience</h1>
+                        <p>- Semester 1/2015. Teaching assistant in Computer Architecture course.</p>
+                        <p>- Summer 2014. Staff for Internet Marketing Seminar in 17 provinces in the north of Thailand by Dr.Ekkasit Tiamkeaw from Naresuan University.</p>
+                        <p>- Summer 2012 & 2013. Staff for Computer Olympics Camp (POSN) held at Naresuan University.</p>
+                        <p>- Part-time 2009-2011. Waiter at local restaurant.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="section4">
+                <div class="col-lg-12" id="set-train">
+                    <div>
+                        <h1 id="data">Training</h1>
+                        <p>- Women Techmakers(GDG Phitsanulok March 2015)</p>
+                        <p>- Attended many programming workshops at Naresuan, including:</p>
+                        <p>&nbsp;&nbsp;&nbsp;๐ Google Dart and Angular (organised by GDG Bangkok & Phitsanulok, February 2014).</p>
+                        <p>&nbsp;&nbsp;&nbsp;๐ Introduction to Android Development (8-9 August 2015).</p>
+                        <p>&nbsp;&nbsp;&nbsp;๐ Laravel Framework training (27-28 June 2015).</p>
+                        <p>- International Organization for Standardization Workshop by Dr. Jittra Wannawichitra.</p>
+                        <p>- Cisco network training (2011) and Flash training (2010) at Rangsit University.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="section5">
+                <div class="col-lg-12" id="set-skills">
+                    <div>
+                        <h1 id="data">Skills</h1>
+                        <p>- Programming languages in project: Swift, Visual Basic; in study: Java, C++, PHP.</p>
+                        <p>- Awards for playing basketball, table tennis and petanque in Faculty of Science.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="section6">
+                <div class="col-lg-12" id="set-refer">
+                    <div>
+                        <h1 id="data">Reference</h1>
+                        <p>Dr. Antony Harfield, Lecturer, Department of Computer Science & Information Technology, Naresuan University, Phitsanulok, 65000.</p>
+                        <p> <b id="add">Email:</b> antonyh@nu.ac.th
+                        </p>
+                        <p> <b id="add">Telephone:</b> 088-5190402
+                        </p>
+                    </div>
+                </div>
+            </div>
         </article>
-        <div><h1 id="data">Skills</h1>
-        <p>- Programming languages in project: Swift, Visual Basic; in study: Java, C++, PHP.</p>
-        <p>- Awards for playing basketball, table tennis and petanque in Faculty of Science.</p>
-        </div>
-        <div><h1 id="data">Reference</h1>
-        	<p>Dr. Antony Harfield, Lecturer, Department of Computer Science & Information Technology, Naresuan University, Phitsanulok, 65000.</p>
-				<p> <b id="add">Email:</b>
-				antonyh@nu.ac.th</p>
-				<p> <b id="add">Telephone:</b>
-				088-5190402</p>
-        </div>
-		<footer id="footer" >
-        	
-    	</footer>
-    	</div>
-    </body>
+        <footer id="footer">
+            <a href="https://www.facebook.com/myimmortals.infotech"><img src="images/facebook.png" role="button" width="50px" height="50px"></a>
+            <a href="https://github.com/teerapongs"><img src="images/GitHub.png" role="button" width="40px" height="40px"></a>
+            <a href="https://www.linkedin.com/in/teerapong-sanguanphao-bb78a1111?trk=nav_responsive_tab_profile_pic"><img src="images/linkin.png" role="button" width="30px" height="30px" id="linkin"></a>
+
+        </footer>
+    </div>
+    <script>
+    $(document).ready(function() {
+        $('body').scrollspy({
+            target: ".navbar",
+            offset: 50
+        });
+        $("#myNavbar a").on('click', function(event) {
+            event.preventDefault();
+            var hash = this.hash;
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function() {
+                window.location.hash = hash;
+            });
+        });
+    });
+    </script>
+    <script type="text/javascript">
+    // create the back to top button
+    $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+
+    var amountScrolled = 300;
+
+    $(window).scroll(function() {
+        if ($(window).scrollTop() > amountScrolled) {
+            $('a.back-to-top').fadeIn('slow');
+        } else {
+            $('a.back-to-top').fadeOut('slow');
+        }
+    });
+
+    $('a.back-to-top, a.simple-back-to-top').click(function() {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 700);
+        return false;
+    });
+    </script>
+</body>
+
 </html>
